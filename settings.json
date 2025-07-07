@@ -4,6 +4,7 @@
   "editor.lineHeight": 1.8,
   "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "kotlin.languageServer.path": "kotlin-language-server",
   "editor.rulers": [
     80,
     120
@@ -63,10 +64,6 @@
     "javascript": "javascriptreact",
     "mdx": "javascriptreact"
   },
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx",
-    "mdx": "jsx"
-  },
   "editor.acceptSuggestionOnCommitCharacter": false,
   "explorer.compactFolders": false,
   "git.enableSmartCommit": true,
@@ -90,7 +87,6 @@
     "**\/.svn": true,
     "**\/.git": true,
     ".vscode": true
-    // "node_modules": true
   },
   "workbench.iconTheme": "symbols",
   "update.mode": "start",
@@ -111,7 +107,6 @@
   "workbench.editor.empty.hint": "hidden",
   "update.showReleaseNotes": false,
   "security.promptForLocalFileProtocolHandling": false,
-  //"workbench.activityBar.location": "hidden",
   "custom-ui-style.electron": {
     "frame": false,
     "titleBarStyle": "hiddenInset",
@@ -153,16 +148,18 @@
   },
   "workbench.layoutControl.enabled": false,
   "window.autoDetectColorScheme": true,
-  "workbench.preferredDarkColorTheme": "Black",
+  "workbench.preferredDarkColorTheme": "Pitch Black",
   "gitlens.advanced.messages": {
     "suppressIntegrationDisconnectedTooManyFailedRequestsWarning": true,
     "suppressIntegrationRequestTimedOutWarning": true
   },
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.multiCursorLimit": 50000,
-  //"workbench.activityBar.location": "top",
   "glassit.alpha": 220,
   "workbench.editor.editorActionsLocation": "hidden",
-  //"workbench.editor.showTabs": "single",
-  "files.autoSave": "onWindowChange"
+  "files.autoSave": "onWindowChange",
+  "workbench.activityBar.location": "top",
+  "kotlin.languageServer.enabled": false,
+  "kotlin.debugAdapter.enabled": false,
+  "workbench.preferredLightColorTheme": "Min Light"
 }
